@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* 320px — 480px: Mobile devices. */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+      background-color: burlywood;
+  }
+}
+
+/* 481px — 768px: iPads, Tablets. */
+
+@media (min-width: 481px) and (max-width: 768px) {
+body {
+      background-color: aqua;
+  }
+}
+
+
+/* 769px — 1024px: Small screens, laptops. */
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+      background-color: darkorange;
+  }
+}
+
+/* 1025px — 1200px: Desktops, large screens. */
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  body {
+      background-color:cornflowerblue;
+  }
+}
+
+
+
+.product-item {
+    padding: 10px;
+    background-color: beige;
+    width: 200px;
+}
+
+.product {
+    border-radius: 10%;
+}
+
+del {
+    color: red;
+}
+
+button {
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 90px;
+    background-color: yellow;
+    color: black;
+}
+ */
+
+   a {
+    text-decoration: relative;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+  }
+
+  a:hover {
+    height: 50%;
+    color: rgb(94, 37, 226);
+    background-color: #fff;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  details {
+    padding: 10px;
+    margin-top: 5px;
+    box-shadow:0 0 1px 2px #BFBFBF;
+
+  }
+
+  details[open] {
+    box-shadow: 0 2px 5px 0 #666;
+  }
+
+  summary {
+    cursor: pointer;
+  }
+  summary:focus {
+    color: #005fcc;
+  }
+
+  footer {
+    width: 100vw;
+    text-align: center;
+    
+  } 
+
